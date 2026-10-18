@@ -62,7 +62,7 @@ function Navigation() {
 
       <div className='flex flex-row justify-center items-center gap-2'>
         <div className='group '>
-              <a href="/tecsonology/Resume.pdf" target='_blank' className='hidden md:block'>
+              <a href="/portfolio/MyResume.pdf" target='_blank' className='hidden md:block'>
             <div className="hover:bg-emerald-600 transtion-all duration-1000 hover:text-white cursor-pointer flex flex-row justify-center items-center text-xs tracking-widest font-bold text-[#12d4b4] border border-[#12d4b4]/30 px-3 py-1 rounded-full bg-[#12d4b4]/10">
             <Eye />
             <span className="ml-2">
