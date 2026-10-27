@@ -1,4 +1,4 @@
-import img from '../assets/heroimg.png'
+import img from '../assets/MyProfilePic.jpg'
 import ShapeGrid from '../components/ShapeGrid'
 import { useState } from 'react'
 import { Mail, MailOpen } from 'lucide-react'
@@ -164,7 +164,7 @@ function HeroMain() {
             <div className="hover:rotate-5 relative bg-black overflow-hidden rounded-2xl border-2 border-zinc-700 bg-zinc-900/20 backdrop-blur-sm transition-all duration-500 group-hover:border-emerald-500/70 group-hover:scale-[1.03] shadow-2xl">
   
               <img
-                className={`w-100 ${isImgHover ? 'bg-black' : 'bg-emerald-500'}  h-auto object-contain brightness-90 contrast-110 grayscale group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700 ease-in-out`}
+                className={`w-70 ${isImgHover ? 'bg-black' : 'bg-emerald-500'}  h-auto object-contain brightness-90 contrast-110 grayscale group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700 ease-in-out`}
                 src={img}
                 alt="Jorge Tecson Portfolio Hero"
               />
