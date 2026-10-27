@@ -1,6 +1,7 @@
 
 import opsie from '../../public/projects/opsie.png'
 import calcumate from '../../public/projects/calcumate.png'
+import musicquestro from '../../public/projects/musicquestro.png'
 import StackIcon from 'tech-stack-icons'
 
 
@@ -48,6 +49,57 @@ const projects = [
       },
     ]
   },
+
+  {
+    projectName: 'MusicQuestro - An Interactive Music Game',
+    img: musicquestro,
+    description: `An Engaging Music Game for Kids and Youth that can enhance pitch recognition, note memory, and more.`,
+    link: 'https://musicquestro-web.vercel.app/',
+    techStacks: [
+        {
+        icon: 'html5',
+        tech: 'HTML'
+      },
+
+      {
+        icon: 'css3',
+        tech: 'CSS'
+      },
+
+      {
+        icon: 'js',
+        tech: 'Javascript'
+      },
+      
+       {
+        icon: 'react',
+        tech: 'React'
+      },
+
+      {
+        icon: 'nodejs',
+        tech: 'Node.js'
+      },
+
+      {
+        icon: 'mongodb',
+        tech: 'MongoDB'
+      },
+
+      {
+        icon: 'expressjs',
+        tech: 'Express.js'
+      },
+      
+
+      {
+        icon: 'vscode',
+        tech: 'Vs Code'
+      },
+    ]
+  },
+
+  
 
   {
     projectName: 'CalcuMate - Tertiary Grade Calcualtor',
